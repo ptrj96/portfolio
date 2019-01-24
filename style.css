@@ -1,0 +1,75 @@
+/* global */
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* header */
+
+header {
+  padding-top: 30px;
+  background: darkblue;
+  color: white;
+  text-align: center;
+  height: 80px;
+  font-size: 1.3em;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-flow: column;
+
+}
+a {
+  text-decoration: none;
+  flex-grow: 1;
+  color: black;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  flex-flow: row;
+  background: lightgrey;
+  color: black;
+  list-style: none;
+}
+
+li {
+  padding: 0 20px;
+  flex-grow: 1;
+}
+
+
+/* main */
+
+#me-img {
+  height: 350px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+main {
+  margin-top: 60px;
+  display: flex;
+  flex-flow: row;
+}
+
+h2 {
+  flex-grow: 1;
+}
+
+p {
+  padding-top: 10px;
+  flex-grow: 5;
+}
